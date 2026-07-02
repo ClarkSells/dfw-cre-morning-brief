@@ -1,0 +1,859 @@
+{
+  "iso_date": "2026-07-02",
+  "date": "July 2, 2026",
+  "weekday": "Thursday",
+  "window": "July 1, 2026, 7:00 AM CT to July 2, 2026, 8:00 AM CT (carried items dated back to June 15 where flagged)",
+  "market_read": "DFW industrial keeps outrunning the national market on record Q1 leasing and the cleanest credit profile in the CMBS stack, while Uptown Dallas office pulls in a $1.3B anchor commitment and fresh spec capital in the same week a legacy trophy owner tests a sale.",
+  "temperature": [
+    {
+      "sector": "Industrial",
+      "signal": "Positive",
+      "rationale": "Record Q1 2026 leasing (21.0M SF), absorption ahead of deliveries, and industrial CMBS delinquency at 1.20%, the cleanest of any property type [10][11][13][40]."
+    },
+    {
+      "sector": "Investment Sales",
+      "signal": "Positive",
+      "rationale": "MSCI Q1 2026 volume up 18% y/y with industrial leading sector growth at 27% y/y; Zenith and CanTex remain active, plus an unconfirmed Ares deal-sheet headline [15][16][17][44]."
+    },
+    {
+      "sector": "Multifamily",
+      "signal": "Negative",
+      "rationale": "Blackstone reportedly facing foreclosure on a $90M North Dallas loan; June's Texas foreclosure-flagged total hit a tracking-period record, concentrated in multifamily and hospitality [31][32]."
+    },
+    {
+      "sector": "Office",
+      "signal": "Neutral",
+      "rationale": "Uptown is bifurcating: fresh capital funding a $1.3B Morgan Stanley commitment and a new Stonelake spec tower while Hillwood Urban tests a sale of an existing trophy asset [7][28][30]."
+    },
+    {
+      "sector": "Retail",
+      "signal": "Neutral",
+      "rationale": "No material retail transactions or leases surfaced in the coverage window."
+    },
+    {
+      "sector": "Land / Development",
+      "signal": "Positive",
+      "rationale": "Hillwood's AllianceTexas pipeline has grown to roughly 8.2M SF under construction or design, and a pending 310,036 SF incentive deal is in front of Fort Worth council [19][21][22]."
+    },
+    {
+      "sector": "Debt / Capital Markets",
+      "signal": "Neutral",
+      "rationale": "Treasuries are range-bound in a tight band and the Fed is on hold, but a new Fed Chair and a softer ADP print add two-sided risk into the July 28 to 29 FOMC [34][35][36][38]."
+    }
+  ],
+  "top3": [
+    {
+      "headline": "Celestica commits $300M and 343,000 SF to Richardson, growing its Telecom Corridor campus to roughly 1M SF",
+      "score": 5,
+      "lane": "industrial",
+      "facts": "Celestica renewed its lease on its existing two-building advanced-manufacturing campus on Telecom Parkway in Richardson and signed for a new 343,000 SF building, bringing its total campus footprint to approximately 1 million square feet through 2036. The company plans to invest roughly $300M in tenant improvements and equipment over two years and expects to add approximately 2,300 permanent jobs; the City of Richardson approved a $3M tenant-improvement grant. Reported June 17 to 18, 2026 [1][2][3].",
+      "why": "The largest confirmed DFW manufacturing-campus commitment of the week, reinforcing Richardson's Telecom Corridor as a target for advanced-manufacturing and data-center-supply-chain tenants that need large contiguous blocks with heavy power capacity.",
+      "implication": "Expect increased owner and developer interest in large-block, power-heavy manufacturing product along the Telecom Corridor; this is a strong comp for other North Dallas municipalities structuring incentive packages to compete for similar advanced-manufacturing users."
+    },
+    {
+      "headline": "DataBank closes $1.45B in financing for its Oracle-anchored Red Oak data center campus",
+      "score": 4,
+      "lane": "data center",
+      "table": {
+        "title": "DataBank Red Oak Campus, Capital Stack to Date",
+        "rows": [
+          [
+            "Corporate revolving credit facility",
+            "$800M, matures 2031"
+          ],
+          [
+            "Construction financing upsize",
+            "$650M (June 15, 2026)"
+          ],
+          [
+            "Prior MUFG-led construction loan",
+            "$2.0B (April 21, 2026), DFW9 to DFW11"
+          ],
+          [
+            "First three buildings",
+            "600,000 SF; 180 MW; anchored by Oracle"
+          ],
+          [
+            "Full campus plan",
+            "8 buildings; up to 480 MW; 292 to 300 acres"
+          ]
+        ],
+        "caption": "No real attributed image was available; presented as a styled data table per the visuals sourcing waterfall (Level 3). Sources: DataBank press releases, June 15 and April 21, 2026 [5][6]."
+      },
+      "facts": "DataBank closed more than $1.45B in new financing, an $800M revolving credit facility plus a $650M upsize of construction financing, for its 292 to 300-acre campus in Red Oak, roughly 20 miles south of Dallas. This builds on an earlier $2.0B MUFG-led construction loan (announced April 21, 2026) for the campus's first three buildings, DFW9 through DFW11, totaling 600,000 SF and 180 MW, anchored by Oracle. The full campus is planned for eight buildings and up to 480 MW of IT load. Financing close reported June 15, 2026 [4][5][6].",
+      "why": "Capital at this scale for a single South Dallas County campus confirms institutional lenders remain willing to underwrite hyperscale power-heavy projects even as broader CRE lending stays cautious, and it puts Red Oak alongside AllianceTexas as a DFW power and land corridor.",
+      "implication": "Expect land brokers and owners in southern Dallas County to market power-adjacent parcels against this comp, and increased diligence interest from other data-center operators evaluating ERCOT interconnection queue position near Red Oak."
+    },
+    {
+      "headline": "Dallas Council approves $18.5M incentive package for Morgan Stanley's proposed $1.3B Uptown tower",
+      "score": 5,
+      "lane": "office",
+      "facts": "Dallas City Council voted to approve an $18.5M incentive package tied to Morgan Stanley's proposed 708,000 to 709,000 SF office tower at 2401 McKinney Ave in Uptown, developed by Trammell Crow Co. Total project value is cited at $1.3B, with Morgan Stanley weighing roughly $684M to $700M of that against a competing site in Alpharetta, GA. Reporting describes a planned 16-year lease from 2031, growing from approximately 1,500 employees to as many as 4,800 by 2039, with construction slated to start fall 2026. Council vote reported June 24, 2026 [7][8][9].",
+      "why": "The single largest corporate-commitment story of the week for DFW CRE at large and the clearest signal that Uptown remains competitive for major financial-services HQ decisions against Sun Belt alternatives. Per the Top Three balance rule, this is the one non-industrial story large enough to hold the third slot.",
+      "implication": "A confirmed incentive-per-job structure at this scale becomes the reference point for future Uptown or Dallas CBD incentive negotiations; expect increased developer interest in adjacent McKinney Avenue sites regardless of Morgan Stanley's final decision."
+    }
+  ],
+  "industrial_desk": [
+    {
+      "label": "Fundamentals",
+      "body": "DFW industrial vacancy stood at roughly 8.8% to 9.2% in Q1 2026 (figures vary by brokerage methodology), down 40 to 60 basis points quarter-over-quarter and year-over-year, on record Q1 leasing of 21.0M SF and net absorption of roughly 9.4M to 10.4M SF against 5.7M SF delivered. Approximately 33.4M SF remained under construction (40.9% pre-leased) against a base of roughly 1.12 billion SF, with average NNN asking rent in the $9.56 to $10.24/SF range [10][11][12][13]. No Q2 2026 quarterly report had been published by any major brokerage as of this morning; any Q2-dated figure in circulation should be treated as unconfirmed until brokerages report [10].",
+      "inference": "The spread between tight small-bay and flex space and looser big-box vacancy above 10% means listings should be priced by building-size cohort, not against a single blended market number."
+    },
+    {
+      "label": "Leasing",
+      "body": "Lee & Associates DFW placed a tenant in a 35,000 SF industrial lease at 566 N Beach St in Fort Worth, closing June 19 [14]. Celestica's Richardson campus expansion (Section 1) is the week's largest confirmed leasing commitment [1][2][3].",
+      "inference": "Small-bay Fort Worth product continues to move even as headline vacancy sits above the metro average, consistent with the fundamentals split above."
+    },
+    {
+      "label": "Investment sales and capital",
+      "body": "Zenith Industrial Outdoor Storage closed a three-property, roughly 30-acre IOS portfolio spanning Duncanville and Blue Mound (plus a Tulsa asset), five buildings and more than 105,000 SF of improvements; no price disclosed. Reported June 23, 2026 [16]. Bisnow's June 29 DFW Deal Sheet headlined an Ares acquisition of an industrial portfolio in an unnamed premier corridor of DFW; the underlying article could not be independently confirmed and the address, size, and price remain unverified [15]. CanTex Capital's April sale of a majority interest in its 20-asset, 1.3M SF shallow-bay portfolio to Partners Group and an undisclosed New York investor remains relevant background: CanTex retained a minority stake and disclosed more than $460M in 2025 Class B industrial dispositions across Texas [17].",
+      "inference": "Zenith's back-to-back DFW IOS buys and CanTex's disposition cadence both point to institutional capital treating DFW outdoor storage and shallow-bay product as a distinct, actively traded asset class rather than a niche."
+    },
+    {
+      "label": "Data center and power",
+      "body": "DataBank's $1.45B financing close (Section 1) is the week's anchor data-center capital event [4][5][6]. Celestica separately committed to a data-center-equipment manufacturing campus at Hillwood's AllianceTexas exceeding 1M SF and roughly 1,700 jobs; reported investment figures conflict between sources ($876M per Bisnow versus $300M per CoStar) and should be confirmed before citing a specific number [18][45]. ERCOT and Oncor's Southern DFW Load Interconnection project remains the standing infrastructure story behind this demand, with Oncor projecting more than 4 GW of load growth across greater DFW [46].",
+      "inference": "Financing at this scale for a single South Dallas County campus, alongside ERCOT's new large-load batch-review process, confirms power availability, not capital, is now the binding constraint on new DFW data-center and heavy-power industrial sites."
+    },
+    {
+      "label": "Land and entitlement",
+      "body": "Fort Worth's City Council is weighing up to $4.5M in incentives over 10 years for Mach Industries, a defense-tech drone manufacturer, to occupy Hillwood's 310,036 SF Alliance Gateway 34 building in exchange for a $74M investment and at least 1,000 jobs; a council vote is set for August 10 [19][20][21]. Hillwood announced Alliance Westport 16, a 1,214,969 SF Class A spec building (completion targeted July 2027), on top of two smaller spec buildings (268,623 SF and 501,235 SF) already under construction, bringing its AllianceTexas pipeline to roughly 8.2M SF under construction or in design [22][23]. In Fort Worth, council unanimously approved case ZC-25-208 on April 28, unifying zoning at 8.47 acres at 5051 South Freeway to Light Industrial [24]. The Black Mountain Power rezoning near Forest Hill and Kennedale (450-plus acres for a proposed $10B data center campus) still has an 80-acre council vote pending after resident pushback [25][26].",
+      "inference": "Hillwood's 8.2M SF spec pipeline and the pending Mach Industries lease show AllianceTexas absorbing new supply about as fast as it delivers it, which should keep asking rents firm in that corridor even as citywide big-box vacancy sits above 10%."
+    }
+  ],
+  "deal_watch": [
+    {
+      "id": "celestica-manufacturing-campus",
+      "category": "Industrial",
+      "submarket": "Richardson",
+      "asset": "Telecom Parkway campus",
+      "parties": "Celestica; City of Richardson",
+      "what": "Lease renewal plus new 343,000 SF building; $300M capex; ~2,300 jobs; $3M city TI grant.",
+      "size": "343K SF new; ~1M SF total.",
+      "angle": "Comp for power-heavy manufacturing incentive packages along the corridor.",
+      "src": "[1,2,3]"
+    },
+    {
+      "id": "566-n-beach-st-lease",
+      "category": "Industrial",
+      "submarket": "Fort Worth",
+      "asset": "566 N Beach St",
+      "parties": "Tenant unconfirmed; Lee & Associates DFW",
+      "what": "35,000 SF industrial lease closed June 19.",
+      "size": "35,000 SF.",
+      "angle": "Small-bay Fort Worth comp; tenant-rep potential.",
+      "src": "[14]"
+    },
+    {
+      "id": "alliance-gateway-34-mach",
+      "category": "Industrial",
+      "submarket": "Alliance",
+      "asset": "Alliance Gateway 34",
+      "parties": "Mach Industries; Hillwood; City of Fort Worth",
+      "what": "Council weighing $4.5M incentive; August 10 vote; $74M investment, 1,000-plus jobs.",
+      "size": "310,036 SF.",
+      "angle": "Pending absorption; a fresh incentive-per-job comp if approved.",
+      "src": "[19,20,21]"
+    },
+    {
+      "id": "alliance-westport-16-spec",
+      "category": "Industrial",
+      "submarket": "Alliance",
+      "asset": "Alliance Westport 16 plus two spec buildings",
+      "parties": "Hillwood",
+      "what": "1,214,969 SF spec building announced; AllianceTexas pipeline now ~8.2M SF.",
+      "size": "1.21M SF; delivery July 2027.",
+      "angle": "Major new supply; large-bay leasing opportunity and rent-comp watch.",
+      "src": "[22,23]"
+    },
+    {
+      "id": "three-property-ios-portfolio-1-in-tulsa",
+      "category": "IOS",
+      "submarket": "Duncanville / Blue Mound",
+      "asset": "Three-property IOS portfolio",
+      "parties": "Zenith IOS (buyer); Newmark (broker)",
+      "what": "Acquired five-building, roughly 30-acre portfolio; 105K-plus SF; price undisclosed.",
+      "size": "~30 acres.",
+      "angle": "Active IOS buyer; owner outreach candidate on comparable sites.",
+      "src": "[16]"
+    },
+    {
+      "id": "red-oak-data-center-campus",
+      "category": "Data Center",
+      "submarket": "Red Oak",
+      "asset": "DataBank campus (DFW9 to DFW11)",
+      "parties": "DataBank; Oracle; MUFG; Citizens Bank N.A.",
+      "what": "Closed $1.45B financing following the $2.0B April construction loan; 180 MW live, up to 480 MW planned.",
+      "size": "292 to 300 acres.",
+      "angle": "Capital-conviction signal for power-heavy land in southern Dallas County.",
+      "src": "[4,5,6]"
+    },
+    {
+      "id": "celestica-alliancetexas-mfg",
+      "category": "Data Center",
+      "submarket": "Alliance",
+      "asset": "Celestica equipment-manufacturing campus",
+      "parties": "Celestica; Hillwood",
+      "what": "Data-center-equipment manufacturing commitment; investment figure disputed between sources.",
+      "size": "1M-plus SF; ~1,700 jobs.",
+      "angle": "Supply-chain-adjacent demand driver for AllianceTexas land and big-box.",
+      "src": "[18,45]"
+    },
+    {
+      "id": "black-mountain-power-data-center",
+      "category": "Land",
+      "submarket": "Kennedale",
+      "asset": "Black Mountain Power site",
+      "parties": "Black Mountain Power; City of Fort Worth",
+      "what": "450-plus acres rezoned for a proposed $10B campus; an additional 80-acre vote remains pending.",
+      "size": "450-plus acres.",
+      "angle": "Large entitlement with reuse optionality if campus scope shifts.",
+      "src": "[25,26]"
+    },
+    {
+      "id": "5051-south-freeway-zc-25-208",
+      "category": "Municipal / Zoning",
+      "submarket": "Fort Worth",
+      "asset": "5051 South Freeway",
+      "parties": "Series C LLC / Diamond Creek Investments",
+      "what": "Council approved ZC-25-208 April 28, unifying Light Industrial zoning.",
+      "size": "8.47 acres.",
+      "angle": "Entitlement-precedes-disposition signal; outreach candidate.",
+      "src": "[24]"
+    },
+    {
+      "id": "camp-howze-industrial-rail-park",
+      "category": "Land",
+      "submarket": "Gainesville (noted, not mapped)",
+      "asset": "Camp Howze Industrial Rail Park",
+      "parties": "Stream Realty; Hughes Commercial; B-29 Investments; BNSF",
+      "what": "Groundbreaking June 18; dedicated BNSF connection targeted in service by Q2 2027.",
+      "size": "489 acres; up to 7M SF.",
+      "angle": "Emerging rail-served node north of core DFW; longer-dated watch item.",
+      "src": "[27]"
+    },
+    {
+      "id": "2401-mckinney-morgan-stanley",
+      "category": "Major Employer",
+      "submarket": "Uptown Dallas",
+      "asset": "2401 McKinney Ave tower",
+      "parties": "Morgan Stanley; Trammell Crow Co.; City of Dallas",
+      "what": "Council approved $18.5M incentive June 24; construction projected fall 2026.",
+      "size": "708 to 709K SF; $1.3B.",
+      "angle": "Catalyst for further Uptown investment; watch adjacent site interest.",
+      "src": "[7,8,9]"
+    },
+    {
+      "id": "victory-commons-one",
+      "category": "Office",
+      "submarket": "Uptown Dallas",
+      "asset": "Victory Commons One",
+      "parties": "Hillwood Urban; Affinius Capital; JLL",
+      "what": "JLL hired to explore a sale, refinance, recapitalization, or new equity partner.",
+      "size": "364,428 SF; 93% leased.",
+      "angle": "Trophy disposition candidate; a live Uptown pricing comp when it clears.",
+      "src": "[28,29]"
+    },
+    {
+      "id": "2626-mckinney-stonelake-tower",
+      "category": "Office",
+      "submarket": "Uptown Dallas",
+      "asset": "2626 McKinney Ave",
+      "parties": "Stonelake Capital Partners; Bank OZK (reported)",
+      "what": "Construction financing secured; groundbreaking expected July 2026.",
+      "size": "17 stories.",
+      "angle": "Spec office conviction signal at the top of the Uptown market.",
+      "src": "[30]"
+    },
+    {
+      "id": "75-west-apartments-foreclosure",
+      "category": "Distress / Lender Action",
+      "submarket": "North Dallas",
+      "asset": "75 West Apartments",
+      "parties": "Blackstone (borrower, reported); Ares (lender)",
+      "what": "Foreclosure action reported June 26; auction date unconfirmed.",
+      "size": "490 units; $90M loan.",
+      "angle": "Multifamily distress sourcing signal; track servicer and disposition path.",
+      "src": "[31]"
+    },
+    {
+      "id": "atletico-dallas-trinity-fc",
+      "category": "Sports / Entertainment",
+      "submarket": "South Dallas",
+      "asset": "Cotton Bowl (interim); stadium site search",
+      "parties": "Atletico Dallas; Dallas Trinity FC",
+      "what": "Acquired Trinity FC June 30; unified group searching for a permanent stadium and training site.",
+      "size": "Terms undisclosed.",
+      "angle": "Future stadium search is a land watch item into the fall.",
+      "src": "[33]"
+    }
+  ],
+  "map": {
+    "caption": "Fixed DFW base map with today's deals overlaid; numbered pins match the Src column. Gainesville items are noted in the table, not pinned. Base: OpenStreetMap via mapz.com."
+  },
+  "broader_note": "Office, multifamily, and sports items with full deal detail appear as rows in the Section 3 table above and are not repeated here.",
+  "broader": [
+    {
+      "cls": "Office",
+      "body": "Dallas Council approved the $18.5M incentive tied to Morgan Stanley's proposed $1.3B Uptown tower [7][8][9]. Hillwood Urban is evaluating a sale, refinance, recapitalization, or new partner for Victory Commons One (364,428 SF; 93% leased) [28][29], while Stonelake secured construction financing for a 17-story spec tower at 2626 McKinney [30].",
+      "inference": "Uptown is bifurcating in real time: fresh capital is funding new trophy supply and an incentive-backed HQ commitment while an existing trophy owner tests the market."
+    },
+    {
+      "cls": "Multifamily",
+      "body": "Blackstone reportedly faces foreclosure on a $90M Ares loan tied to the 490-unit 75 West Apartments in North Dallas [31]; June's Texas CRE foreclosure-flagged total reportedly reached $1.3B, concentrated in multifamily and hospitality [32].",
+      "inference": "A high-profile borrower facing foreclosure is a marker that North Dallas Class B multifamily distress extends beyond smaller private owners."
+    },
+    {
+      "cls": "Retail / Hospitality",
+      "body": "No material retail development surfaced in the coverage window. North Texas hotels reportedly saw a late-June World Cup-related demand surge, but exact figures were not independently confirmed [13][43]."
+    },
+    {
+      "cls": "Sports & Entertainment",
+      "body": "Atletico Dallas acquired Dallas Trinity FC on June 30. The unified ownership group will play at the Cotton Bowl while it searches for a permanent stadium and training-facility site after Garland declined the earlier proposal [33].",
+      "inference": "A dual-club group actively searching for a stadium site is a land story worth tracking into the fall, though no specific site has been named."
+    }
+  ],
+  "kpis": [
+    {
+      "label": "10-Year Treasury",
+      "value": "4.47%",
+      "sub": "July 2 intraday range 4.46% to 4.50%; a tight week-over-week band supports stable cap-rate spreads [34][35]."
+    },
+    {
+      "label": "Short End",
+      "value": "2Y 4.17%",
+      "sub": "SOFR 3.68% (June 30); Fed funds 3.50% to 3.75% after the June 17 hold [36][37][38]."
+    },
+    {
+      "label": "CMBS Industrial",
+      "value": "1.20%",
+      "sub": "Cleanest property type in June; office 11.57%, all-property 7.35% [40]."
+    }
+  ],
+  "capital": {
+    "chart": {
+      "label": "10-Year U.S. Treasury Yield, Trailing Sessions",
+      "data": [
+        [
+          "2026-06-25",
+          4.4
+        ],
+        [
+          "2026-06-26",
+          4.38
+        ],
+        [
+          "2026-06-29",
+          4.48
+        ],
+        [
+          "2026-06-30",
+          4.44
+        ],
+        [
+          "2026-07-01",
+          4.47
+        ]
+      ],
+      "caption": "Five most recent confirmed session closes; July 2 intraday 4.46% to 4.50%. Secondary-sourced from Advisor Perspectives and CNBC quote data; direct FRED and Treasury pulls were blocked [34][35]."
+    },
+    "bars": {
+      "title": "CMBS Delinquency Rate by Property Type, June 2026",
+      "rows": [
+        [
+          "Industrial",
+          1.2
+        ],
+        [
+          "Lodging",
+          5.22
+        ],
+        [
+          "Retail",
+          6.91
+        ],
+        [
+          "Multifamily",
+          7.23
+        ],
+        [
+          "Office",
+          11.57
+        ],
+        [
+          "All Property",
+          7.35
+        ]
+      ],
+      "caption": "Trepp data as reported by Connect CRE [40]."
+    },
+    "items": [
+      {
+        "fact": "The 2-year Treasury stood at 4.17% to 4.18% as of July 1; SOFR printed 3.68% June 30; the Fed target range remains 3.50% to 3.75%, with the July 28 to 29 meeting carrying no new SEP [36][37][38][39].",
+        "translation": "Floating-rate industrial construction and bridge debt continues to price off a stable SOFR base; a near-flat curve does little to change proceeds on fixed or floating executions this week."
+      },
+      {
+        "fact": "Kevin Warsh was confirmed as Fed Chair in May; June ADP private payrolls rose 98,000, below consensus. The July 2 BLS report had not been released when this brief was compiled [41][42].",
+        "translation": "Underwrite both continued-hold and surprise-cut rate paths into the July FOMC rather than assuming the June hold persists through year-end."
+      },
+      {
+        "fact": "Overall CMBS delinquency fell to 7.35% in June, but retail and multifamily rose. Industrial improved to 1.20% while office worsened to 11.57%, the highest sector rate [40].",
+        "translation": "The headline improvement masks sector divergence. DFW industrial sponsors remain the best-positioned borrowers in refinance and extension conversations."
+      },
+      {
+        "fact": "The April 2026 Senior Loan Officer Opinion Survey showed broadly unchanged CRE lending standards and weaker-to-unchanged loan demand [47].",
+        "translation": "Banks are not tightening materially further but are not meaningfully easing either; debt funds and life companies remain central to construction and bridge executions."
+      }
+    ]
+  },
+  "national": [
+    {
+      "headline": "Prologis / Segro",
+      "what": "Prologis made an indicative all-share proposal June 16 to acquire Segro at roughly 12.6 billion pounds; Segro rejected it June 23. A firm-offer-or-walk-away deadline is July 22 [48][49][50].",
+      "why_national": "The largest global industrial landlord sees scaled logistics portfolios as undervalued.",
+      "why_dfw": "Continued institutional conviction in scaled industrial portfolios is supportive for DFW owners evaluating exit timing."
+    },
+    {
+      "headline": "Industrial credit",
+      "what": "Industrial CMBS delinquency is 1.20% versus 11.57% for office, confirming collateral-quality divergence even as the headline rate fell [40].",
+      "why_national": "Lender appetite is concentrating in the cleanest collateral.",
+      "why_dfw": "DFW industrial borrowers should retain comparatively better lender appetite and refinance proceeds."
+    },
+    {
+      "headline": "MSCI capital recovery",
+      "what": "MSCI reported U.S. CRE investment volume of $110.7B in Q1 2026, up 18% y/y, with industrial leading at $31B, up 27% y/y [44].",
+      "why_national": "Transaction volume is recovering fastest in industrial.",
+      "why_dfw": "Record DFW Q1 leasing and absorption make the market a credible recipient of reallocating industrial capital."
+    },
+    {
+      "headline": "Fed transition",
+      "what": "New Fed leadership and the June 17 hold at 3.50% to 3.75% add rate-path uncertainty into the July 28 to 29 FOMC [38][41].",
+      "why_national": "A new Chair's first cycle decisions reset market expectations.",
+      "why_dfw": "Tighten assumptions on floating-rate acquisition debt and 2026 to 2027 refinance timing."
+    }
+  ],
+  "radar": [
+    {
+      "opportunity": "Entitlement-driven disposition signal",
+      "asset": "5051 South Freeway, Fort Worth (Series C LLC / Diamond Creek)",
+      "evidence": "Fort Worth Council unanimously approved ZC-25-208, unifying Light Industrial zoning, April 28, 2026 [24].",
+      "why": "Owners often unify split zoning before marketing or beginning development.",
+      "question": "Now that the site carries unified Light Industrial zoning, is there interest in a land sale, ground lease, or build-to-suit partner?",
+      "confidence": "Medium"
+    },
+    {
+      "opportunity": "Partial exit and further-disposition signal",
+      "asset": "CanTex Capital, 20-asset / 1.3M SF shallow-bay portfolio",
+      "evidence": "April 6 release confirms a majority-interest sale; CanTex retained a minority stake and disclosed $460M-plus in 2025 Class B Texas dispositions [17].",
+      "why": "This is a live conversation for the rest of its DFW book.",
+      "question": "Is the retained minority stake a hold-to-recap position, or are other DFW shallow-bay assets planned for exit?",
+      "confidence": "Early Signal"
+    },
+    {
+      "opportunity": "Large-parcel entitlement with reuse optionality",
+      "asset": "Black Mountain Power, 450-plus acres, Forest Hill / Kennedale",
+      "evidence": "Ag-to-Light-Industrial rezoning approved for a proposed $10B data center; an additional 80-acre request is pending [25][26].",
+      "why": "If campus scope changes, entitled acreage could fit conventional industrial use.",
+      "question": "Is any portion of the entitled acreage available for a conventional industrial or logistics user if campus phasing changes?",
+      "confidence": "Early Signal"
+    }
+  ],
+  "ammo": [
+    "Zenith's back-to-back DFW IOS buys in Duncanville and Blue Mound show outdoor-storage pricing remains tight enough to keep institutional capital active in a product many lenders still treat as opportunistic [16].",
+    "Industrial is the cleanest CMBS credit at 1.20% delinquency versus 11.57% for office, a spread worth raising with lenders assessing mixed-use or office-adjacent industrial collateral [40].",
+    "Morgan Stanley's $18.5M incentive vote for a 709,000 SF Uptown tower is a public comp for AllianceTexas or South Fort Worth industrial users seeking an economic-development agreement [7][8][9]."
+  ],
+  "watch": [
+    {
+      "id": "prologis-segro-deadline",
+      "date": "July 22, 2026",
+      "catalyst": "Prologis deadline to announce a firm Segro bid or walk away.",
+      "consequence": "A completed deal could accelerate logistics-portfolio consolidation appetite reaching DFW sellers [48][49][50]."
+    },
+    {
+      "id": "next-fomc-meeting",
+      "date": "July 28 to 29, 2026",
+      "catalyst": "FOMC meeting, the second under Chair Warsh.",
+      "consequence": "Any shift from the June 17 hold directly reprices DFW industrial cap rates and refinance proceeds [38][39]."
+    },
+    {
+      "id": "mach-industries-incentive-vote",
+      "date": "August 10, 2026",
+      "catalyst": "Fort Worth Council vote on the $4.5M Mach Industries incentive package.",
+      "consequence": "Approval would fill 310,036 SF at Alliance Gateway 34 and set a fresh incentive-per-job comp [19][20][21]."
+    },
+    {
+      "id": "official-june-nonfarm-payrolls-report-consensus",
+      "date": "July 2, 2026",
+      "catalyst": "Official June nonfarm payrolls report, released this morning after compilation.",
+      "consequence": "A weak print raises the odds of a more dovish Fed pivot; a strong print reinforces the hawkish June dot plot [42].",
+      "status": "Resolved"
+    },
+    {
+      "id": "deadline-for-puc-and-ercot-to-submit-an-implemen",
+      "date": "July 17, 2026",
+      "catalyst": "Deadline for PUC and ERCOT to submit an implementation proposal on the directive that data centers fully fund their own grid infrastructure costs.",
+      "consequence": "The cost-allocation mechanism adopted will directly affect underwriting for every DFW data-center land deal in diligence [51]."
+    }
+  ],
+  "move": "Pull comparable South Freeway corridor industrial land trades within three miles of 5051 South Freeway and build a per-acre comp sheet before outreach to Series C LLC / Diamond Creek Investments on its newly unified 8.47-acre Light Industrial site.",
+  "method_note": "The standard 24-to-72-hour window was applied; items first covered between June 15 and July 1 appear with Update or Carry status rather than being re-reported as new. In the original production run, direct fetches to FRED, Treasury, Federal Reserve pages, Bisnow, The Real Deal, CoStar, CBRE, Colliers, and Connect CRE returned HTTP 403; facts attributed to those domains were confirmed through search-result synthesis and cross-checked where possible. The Ares deal-sheet item is headline-only and unverified. The Celestica AllianceTexas investment figure conflicts between sources and is flagged. The June 2026 BLS employment report due July 2 at 8:30 AM ET was not reflected at compilation and should be checked before distribution if precision is required.",
+  "sources": [
+    {
+      "publisher": "Community Impact",
+      "title": "Tech company Celestica expanding Richardson footprint to 1 million square feet",
+      "date": "June 17, 2026",
+      "url": "https://communityimpact.com/dallas-fort-worth/richardson/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "The Real Deal",
+      "title": "Celestica doubles down on Richardson with lease renewal, planned expansion",
+      "date": "June 18, 2026",
+      "url": "https://therealdeal.com/texas/2026/06/18/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Richardson Today",
+      "title": "City of Richardson Announces Celestica Expansion at Telecom Parkway Campus",
+      "date": "June 2026",
+      "url": "https://richardsontoday.com/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Bisnow",
+      "title": "DataBank Closes On $1.45B In Financing For 2 Deals: The DFW Deal Sheet",
+      "date": "June 15, 2026",
+      "url": "https://www.bisnow.com/dallas-ft-worth/news/deal-sheet/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "DataBank",
+      "title": "DataBank Closes $1.45 Billion in New Financing Across Two Transactions",
+      "date": "June 15, 2026",
+      "url": "https://www.databank.com/resources/press-releases/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "DataBank",
+      "title": "DataBank Secures $2.0B of Construction Financing for First Three Data Centers on New South Dallas Campus",
+      "date": "April 21, 2026",
+      "url": "https://www.databank.com/resources/press-releases/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "CBS News Texas",
+      "title": "Dallas City Council approves $18.5M in tax incentives for Morgan Stanley project",
+      "date": "June 24, 2026",
+      "url": "https://www.cbsnews.com/texas/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "KERA News",
+      "title": "Morgan Stanley, Y'all Street: Uptown Dallas, City Council",
+      "date": "June 25, 2026",
+      "url": "https://www.keranews.org/business-economy/2026-06-25/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Commercial Property Executive",
+      "title": "Dallas Approves Incentives for $1.3B Morgan Stanley Office Project",
+      "date": "June 2026",
+      "url": "https://www.commercialsearch.com/news/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Colliers",
+      "title": "Dallas-Fort Worth Industrial Market Report 2026 Q1",
+      "date": "Q1 2026",
+      "url": "https://www.colliers.com/en/research/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "JLL",
+      "title": "Dallas-Fort Worth Industrial Market Dynamics, Q1 2026",
+      "date": "Q1 2026",
+      "url": "https://www.jll.com/en-us/insights",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "CBRE",
+      "title": "Dallas/Fort Worth Industrial Figures Q1 2026",
+      "date": "Q1 2026",
+      "url": "https://www.cbre.com/insights/figures/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Lee & Associates DFW",
+      "title": "Q1 2026 DFW Industrial Market Report",
+      "date": "Q1 2026",
+      "url": "https://leedallas.com/research/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Lee & Associates DFW",
+      "title": "Negotiates a 35,000 SF Industrial Lease Transaction",
+      "date": "June 19, 2026",
+      "url": "https://leedallas.com/news/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Bisnow",
+      "title": "Ares Buys Industrial Portfolio In Premier Corridor: The DFW Deal Sheet (headline only; unconfirmed)",
+      "date": "June 29, 2026",
+      "url": "https://www.bisnow.com/dallas-ft-worth/news/deal-sheet/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Bisnow",
+      "title": "Zenith Industrial Outdoor Storage Buys 3-Property Portfolio: The DFW Deal Sheet",
+      "date": "June 23, 2026",
+      "url": "https://www.bisnow.com/dallas-ft-worth/news/deal-sheet/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Business Wire / CanTex Capital",
+      "title": "CanTex Capital Announces Sale of Majority Interest in Dallas-Fort Worth Industrial Portfolio",
+      "date": "April 6, 2026",
+      "url": "https://www.businesswire.com/news/home/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Bisnow",
+      "title": "Celestica To Build $876M Electronics Manufacturing Campus For Data Centers In AllianceTexas",
+      "date": "June 2026",
+      "url": "https://www.bisnow.com/dallas-ft-worth/news/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Fort Worth Report",
+      "title": "Fort Worth could land manufacturing plant for cutting-edge defense tech startup",
+      "date": "June 23, 2026",
+      "url": "https://fortworthreport.org/2026/06/23/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Community Impact",
+      "title": "Fort Worth proposes tax break to land drone manufacturing plant",
+      "date": "June 24, 2026",
+      "url": "https://communityimpact.com/dallas-fort-worth/fort-worth/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Bisnow",
+      "title": "Defense Technology Startup Targets Fort Worth Site For Next Manufacturing Facility",
+      "date": "June 2026",
+      "url": "https://www.bisnow.com/dallas-ft-worth/news/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Hillwood",
+      "title": "Hillwood to Develop 1.2 Million-Square-Foot Speculative Industrial Building at AllianceTexas",
+      "date": "June 22, 2026",
+      "url": "https://www.hillwood.com/newsroom/press-releases/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Hillwood",
+      "title": "Hillwood Announces Two New Speculative Industrial Buildings at AllianceTexas",
+      "date": "2026",
+      "url": "https://www.hillwood.com/newsroom/press-releases/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Municue",
+      "title": "Fort Worth Active Matters, Q2 2026 (case ZC-25-208); corroborated across independent results",
+      "date": "Q2 2026",
+      "url": "https://municue.com/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Fort Worth Report",
+      "title": "$10B data center hits wall after Fort Worth leaders cite resources, land usage concerns",
+      "date": "February 11, 2026",
+      "url": "https://fortworthreport.org/2026/02/11/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "KERA News",
+      "title": "Data center moves forward after Fort Worth Zoning Commission vote",
+      "date": "April 15, 2026",
+      "url": "https://www.keranews.org/news/2026-04-15/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "KXII",
+      "title": "Groundbreaking held for Camp Howze Industrial Rail Park in Gainesville",
+      "date": "June 18, 2026",
+      "url": "https://www.kxii.com/2026/06/18/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "The Real Deal",
+      "title": "Will Hillwood Urban Sell Dallas' Victory Commons One",
+      "date": "June 26, 2026",
+      "url": "https://therealdeal.com/texas/2026/06/26/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Bisnow",
+      "title": "Hillwood Urban Considering Sale Or Refi Of Trophy Office Building On Y'all Street",
+      "date": "June 2026",
+      "url": "https://www.bisnow.com/dallas-ft-worth/news/office/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Bisnow",
+      "title": "Stonelake Capital Partners Plans 17-Story Trophy Office Building In Uptown Dallas",
+      "date": "June 2026",
+      "url": "https://www.bisnow.com/dallas-ft-worth/news/office/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "The Real Deal",
+      "title": "Blackstone hit by foreclosure on $90M loan for North Dallas apartments",
+      "date": "June 26, 2026",
+      "url": "https://therealdeal.com/texas/2026/06/26/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "The Real Deal",
+      "title": "Dallas leads distress surge as Texas CRE foreclosures top $1B again in June",
+      "date": "June 1, 2026",
+      "url": "https://therealdeal.com/texas/2026/06/01/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Dallas Trinity FC",
+      "title": "Atletico Dallas Acquires Dallas Trinity FC",
+      "date": "June 30, 2026",
+      "url": "https://dallastrinityfc.com/news/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Advisor Perspectives",
+      "title": "Treasury Yields Snapshot: June 26, 2026",
+      "date": "June 26, 2026",
+      "url": "https://www.advisorperspectives.com/dshort/updates/2026/06/26/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "CNBC",
+      "title": "US 10 Year Treasury quote page",
+      "date": "July 2, 2026",
+      "url": "https://www.cnbc.com/quotes/US10Y",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "TradingEconomics",
+      "title": "United States 2-Year Note Yield",
+      "date": "July 1, 2026",
+      "url": "https://tradingeconomics.com/united-states/2-year-note-yield",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "sofrrate.com",
+      "title": "SOFR Rate Today",
+      "date": "June 30, 2026",
+      "url": "https://www.sofrrate.com/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Federal Reserve",
+      "title": "FOMC statement, June 17, 2026",
+      "date": "June 17, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Federal Reserve",
+      "title": "FOMC meeting calendar",
+      "date": "2026",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Connect CRE",
+      "title": "Retail, Multifamily CMBS Delinquencies Rise In June As Overall Rate Moves Lower (Trepp data)",
+      "date": "June 2026",
+      "url": "https://www.connectcre.com/stories/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "CNBC",
+      "title": "Kevin Warsh wins Senate confirmation as the next Federal Reserve chair",
+      "date": "May 13, 2026",
+      "url": "https://www.cnbc.com/2026/05/13/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "CNBC",
+      "title": "Private payrolls rose by 98,000 in June, less than expected, ADP reports",
+      "date": "July 1, 2026",
+      "url": "https://www.cnbc.com/2026/07/01/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "CBS News Texas",
+      "title": "North Texas hotels see World Cup booking surge after slow start (figures unconfirmed)",
+      "date": "2026",
+      "url": "https://www.cbsnews.com/texas/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Colliers Knowledge Leader",
+      "title": "Quick Hits: MSCI Q1 2026 Volume Climbs 18% As Capital Broadens Its Reach",
+      "date": "2026",
+      "url": "https://knowledge-leader.colliers.com/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "CoStar",
+      "title": "Manufacturer of data center equipment to invest $300 million in North Texas expansion (figure conflicts with Bisnow)",
+      "date": "June 2026",
+      "url": "https://www.costar.com/article/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "ERCOT / Oncor",
+      "title": "Southern DFW Load Interconnection and General Improvements Project Status Update",
+      "date": "March 17, 2026",
+      "url": "https://www.ercot.com/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Federal Reserve",
+      "title": "Senior Loan Officer Opinion Survey, April 2026",
+      "date": "April 2026",
+      "url": "https://www.federalreserve.gov/data/sloos.htm",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Prologis Investor Relations",
+      "title": "Creating Shareholder Value Through a Possible SEGRO Combination",
+      "date": "June 16, 2026",
+      "url": "https://ir.prologis.com/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "TradingView / Reuters",
+      "title": "SEGRO PLC / Prologis Inc: Statement Regarding Possible Offer",
+      "date": "June 30, 2026",
+      "url": "https://www.tradingview.com/news/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "DataCenterDynamics",
+      "title": "Real estate giant Prologis makes bid for UK's SEGRO to capitalize on data center pipeline",
+      "date": "June 2026",
+      "url": "https://www.datacenterdynamics.com/en/news/",
+      "accessed": "July 2, 2026"
+    },
+    {
+      "publisher": "Office of the Governor Greg Abbott",
+      "title": "Governor Abbott Directs PUC and ERCOT to Shield Texans From Data Center Infrastructure Costs",
+      "date": "June 22, 2026",
+      "url": "https://gov.texas.gov/news/post/",
+      "accessed": "July 2, 2026"
+    }
+  ]
+}

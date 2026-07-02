@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DFW Industrial &amp; CRE Morning Brief — {{ b.date }}</title>
+<style>{{ css }}</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="kicker">Strive Real Estate Group | Investment Sales &amp; Industrial Advisory</div>
+  <h1>DFW Industrial &amp; Commercial Real Estate Morning Brief</h1>
+  <div class="meta">Date: {{ b.date }}{% if b.weekday %} ({{ b.weekday }}){% endif %}
+    &nbsp;|&nbsp; Coverage Window: {{ b.window }} &nbsp;|&nbsp; Prepared by the Research Desk</div>
+</div>
+
+<div class="marketread"><b>DFW Market Read:</b> {{ b.market_read }}</div>
+
+{% if delta %}
+<div class="delta">
+  {% if delta.new %}<div class="row"><span class="st new">New</span>{{ delta.new|join('; ') }}</div>{% endif %}
+  {% if delta.updated %}<div class="row"><span class="st upd">Update</span>{{ delta.updated|join('; ') }}</div>{% endif %}
+  {% if delta.resolved %}<div class="row"><span class="st res">Closed</span>{{ delta.resolved|join('; ') }}</div>{% endif %}
+  {% if delta.carried %}<div class="row"><span class="st carry">Carry</span>{{ delta.carried|join('; ') }}</div>{% endif %}
+</div>
+{% endif %}
+
+<table class="temp">
+  {% for r in b.temperature %}
+  <tr>
+    <td class="sector">{{ r.sector }}</td>
+    <td class="signal"><span class="chip {{ 'pos' if 'Pos' in r.signal else ('neg' if 'Neg' in r.signal else 'neu') }}">{{ r.signal }}</span></td>
+    <td>{{ r.rationale }}</td>
+  </tr>
+  {% endfor %}
+</table>
+<div class="note">Analyst judgment based on available signals, not a factual statistic.</div>
+
+<h2 class="section">Section 1 — Today's Three Things That Matter</h2>
+{% for it in b.top3 %}
+<div class="block">
+  <h3 class="item"><span class="score">{{ it.score }}/5</span>{{ loop.index }}. {{ it.headline }}</h3>
+  {% if it.image %}<figure><img src="{{ it.image.src }}"><figcaption>{{ it.image.caption }}</figcaption></figure>{% endif %}
+  {% if it.table %}
+  <table class="kv">
+    {% if it.table.title %}<tr><td class="k" colspan="2" style="text-align:center;background:var(--accent);color:#fff;text-transform:uppercase;letter-spacing:.05em">{{ it.table.title }}</td></tr>{% endif %}
+    {% for row in it.table['rows'] %}<tr><td class="k">{{ row[0] }}</td><td>{{ row[1] }}</td></tr>{% endfor %}
+    {% if it.table.caption %}<caption>{{ it.table.caption }}</caption>{% endif %}
+  </table>
+  {% endif %}
+  <p><span class="k">Verified facts.</span> {{ it.facts|safe }}</p>
+  <p><span class="k">Why it matters.</span> {{ it.why|safe }}</p>
+  <p><span class="k">Investment sales implication.</span> <span class="tag">Analyst Inference</span> {{ it.implication|safe }}</p>
+</div>
+{% endfor %}
+
+<h2 class="section">Section 2 — Industrial &amp; Logistics Desk</h2>
+{% for s in b.industrial_desk %}
+<div class="block">
+  <div class="subhead">{{ s.label }}</div>
+  <p>{{ s.body|safe }}</p>
+  {% if s.inference %}<p><span class="tag lead">Analyst Inference</span>{{ s.inference|safe }}</p>{% endif %}
+</div>
+{% endfor %}
+
+<h2 class="section">Section 3 — DFW Deal &amp; Development Watch</h2>
+<figure class="mapfig"><img src="{{ b.map.src }}"><figcaption>{{ b.map.caption }}</figcaption></figure>
+<table class="grid">
+  <colgroup>
+    <col style="width:6%"><col style="width:15%"><col style="width:19%">
+    <col style="width:25%"><col style="width:29%"><col style="width:6%">
+  </colgroup>
+  <tr><th>Status</th><th>Category / Submarket</th><th>Asset / Key Parties</th>
+      <th>Trigger / Size or Value</th><th>Brokerage Angle (Analyst Inference)</th><th>Src</th></tr>
+  {% for r in b.deal_watch %}
+  <tr>
+    <td><span class="st {{ 'new' if r.status == 'New' else ('upd' if r.status == 'Update' else 'carry') }}">{{ 'Upd' if r.status == 'Update' else r.status }}</span></td>
+    <td><span class="cellmain">{{ r.category }}</span><span class="cellsub">{{ r.submarket }}</span></td>
+    <td><span class="cellmain">{{ r.asset }}</span><span class="cellsub">{{ r.parties }}</span></td>
+    <td>{{ r.what }} {{ r.size }}</td>
+    <td>{{ r.angle }}</td>
+    <td>{{ r.src }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h2 class="section">Section 4 — Broader DFW CRE</h2>
+{% if b.broader_note %}<p>{{ b.broader_note|safe }}</p>{% endif %}
+{% for c in b.broader %}
+<div class="block"><div class="subhead">{{ c.cls }}</div><p>{{ c.body|safe }}</p>
+{% if c.inference %}<p><span class="tag lead">Analyst Inference</span>{{ c.inference|safe }}</p>{% endif %}</div>
+{% endfor %}
+
+<h2 class="section">Section 5 — Capital Markets Dashboard</h2>
+{% if b.kpis %}
+<div class="kpirow">
+  {% for k in b.kpis %}
+  <div class="kpi"><div class="kl">{{ k.label }}</div><div class="kv">{{ k.value }}</div><div class="ks">{{ k.sub }}</div></div>
+  {% endfor %}
+</div>
+{% endif %}
+<figure class="chartfig"><img src="{{ b.capital.chart.src }}"><figcaption>{{ b.capital.chart.caption }}</figcaption></figure>
+{% if b.capital.bars %}
+<figure class="chartfig"><img src="{{ b.capital.bars.src }}"><figcaption>{{ b.capital.bars.caption }}</figcaption></figure>
+{% endif %}
+<div class="capgrid">
+{% for c in b.capital['items'] %}
+<div class="capitem">
+  <div class="fact"><span class="k">Verified fact.</span> {{ c.fact|safe }}</div>
+  <div class="tr"><span class="tag lead">CRE Translation — Analyst Inference</span>{{ c.translation|safe }}</div>
+</div>
+{% endfor %}
+</div>
+
+<h2 class="section">Section 6 — National CRE Signals With DFW Read-Through</h2>
+<div class="natgrid">
+{% for n in b.national %}
+<div class="natcard">
+  <div class="nh">{{ n.headline }}</div>
+  <p>{{ n.what|safe }}</p>
+  <p><span class="k">DFW read-through.</span> <span class="tag">Analyst Inference</span> {{ n.why_dfw|safe }}</p>
+</div>
+{% endfor %}
+</div>
+
+<h2 class="section">Section 7 — Origination &amp; Owner Radar</h2>
+<table class="grid">
+  <colgroup>
+    <col style="width:15%"><col style="width:19%"><col style="width:28%">
+    <col style="width:28%"><col style="width:10%">
+  </colgroup>
+  <tr><th>Opportunity</th><th>Asset / Owner / Company</th><th>Evidence + Why It May Matter</th>
+      <th>Suggested Broker Question</th><th>Confidence</th></tr>
+  {% for r in b.radar %}
+  <tr><td>{{ r.opportunity }}</td>
+      <td><span class="cellmain">{{ r.asset }}</span></td>
+      <td>{{ r.evidence }} {{ r.why }}</td>
+      <td>{{ r.question }}</td><td class="conf">{{ r.confidence }}</td></tr>
+  {% endfor %}
+</table>
+
+<h2 class="section">Section 8 — Conversation Ammo</h2>
+<ol style="margin:3px 0;padding-left:18px;">
+  {% for a in b.ammo %}<li style="margin-bottom:3px;font-size:8.2pt;">{{ a|safe }}</li>{% endfor %}
+</ol>
+
+<h2 class="section">Section 9 — What to Watch Next</h2>
+<table class="grid">
+  <colgroup>
+    <col style="width:7%"><col style="width:14%"><col style="width:37%"><col style="width:42%">
+  </colgroup>
+  <tr><th>Status</th><th>Date</th><th>Catalyst</th><th>Consequence to Monitor</th></tr>
+  {% for w in tracker %}
+  <tr>
+    <td><span class="st {{ 'res' if w.status == 'Resolved' else ('new' if w.status == 'New' else 'carry') }}">{{ 'Closed' if w.status == 'Resolved' else w.status }}</span></td>
+    <td><b>{{ w.date }}</b></td>
+    <td>{{ w.catalyst }}</td>
+    <td>{{ w.consequence }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<div class="move"><h2>The Move Today</h2><p>{{ b.move|safe }}</p></div>
+
+<h2 class="section">Sources &amp; Methodology</h2>
+<ol class="sources">
+  {% for s in b.sources %}
+  <li>{{ s.publisher }}, "{{ s.title }}," {{ s.date }}. {{ s.domain }}.</li>
+  {% endfor %}
+</ol>
+<div class="method">Coverage: {{ b.window }}. Compiled {{ b.date }}. Items tagged "Analyst Inference" are interpretive, not factual statements. Full URLs for every numbered source are preserved in the day's data file and the master deal log in the repository. {{ b.method_note|default('') }}</div>
+
+</body>
+</html>

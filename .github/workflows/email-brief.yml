@@ -1,0 +1,32 @@
+name: Email the morning brief
+
+on:
+  push:
+    paths:
+      - "briefs/**/*.pdf"
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find the newest brief PDF
+        id: latest
+        run: |
+          PDF=$(ls -t briefs/*/*/*.pdf | head -1)
+          echo "pdf=$PDF" >> "$GITHUB_OUTPUT"
+          echo "name=$(basename "$PDF" .pdf)" >> "$GITHUB_OUTPUT"
+
+      - name: Send email with PDF attached
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          from: ${{ secrets.MAIL_FROM }}
+          to: ${{ secrets.MAIL_TO }}
+          subject: "${{ steps.latest.outputs.name }}"
+          body: "Attached: today's DFW Industrial & CRE Morning Brief. Full archive and master deal log are in the repository."
+          attachments: ${{ steps.latest.outputs.pdf }}

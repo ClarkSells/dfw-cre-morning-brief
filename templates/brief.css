@@ -1,0 +1,122 @@
+:root{
+  --paper:#ffffff; --ink:#14181c; --muted:#5f6368; --line:#e3e7ea;
+  --accent:#15694a; --accent-soft:#eef4f0;      /* set --accent to exact Strive green */
+  --pos:#1f7a4d; --neu:#b07d18; --neg:#b23a3a;
+  --new:#1f7a4d; --upd:#b07d18; --carry:#77828b;
+  --sans:"Helvetica Neue","Liberation Sans",Arial,"DejaVu Sans",sans-serif;
+}
+@page{
+  size:Letter; margin:10mm 11mm 13mm 11mm;
+  @bottom-left{content:"DFW Industrial & CRE Morning Brief";font:7.5pt var(--sans);color:#8a939b;}
+  @bottom-center{content:"Confidential — Internal Use";font:7.5pt var(--sans);color:#8a939b;}
+  @bottom-right{content:"Page " counter(page) " of " counter(pages);font:7.5pt var(--sans);color:#8a939b;}
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{font:8.2pt/1.28 var(--sans);color:var(--ink);background:var(--paper);
+  -webkit-print-color-adjust:exact;print-color-adjust:exact;}
+p{margin:0 0 4px;} small{color:var(--muted);}
+a{color:var(--accent);text-decoration:none;}
+
+/* masthead */
+.masthead{border-bottom:3px solid var(--accent);padding-bottom:6px;margin-bottom:7px;}
+.masthead .kicker{font-size:8pt;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-weight:700;}
+.masthead h1{font-size:17pt;font-weight:800;letter-spacing:-.01em;margin:2px 0 0;}
+.masthead .meta{font-size:8.2pt;color:var(--muted);margin-top:3px;}
+
+/* market read + delta strip */
+.marketread{background:var(--accent-soft);border-left:4px solid var(--accent);
+  padding:7px 10px;margin-bottom:6px;font-size:9pt;}
+.marketread b{color:var(--accent);}
+.delta{border:1px solid var(--line);border-radius:4px;padding:5px 9px;margin-bottom:8px;font-size:8pt;}
+.delta .row{margin:1px 0;}
+.st{display:inline-block;white-space:nowrap;text-align:center;font-size:6.6pt;font-weight:800;
+  text-transform:uppercase;letter-spacing:.04em;color:#fff;border-radius:3px;padding:1px 5px;margin-right:6px;}
+.st.new{background:var(--new);} .st.upd{background:var(--upd);} .st.carry{background:var(--carry);}
+.st.res{background:var(--ink);}
+
+/* temperature */
+table.temp{width:100%;border-collapse:collapse;table-layout:fixed;margin-bottom:3px;}
+table.temp td{border:1px solid var(--line);padding:2px 6px;font-size:7.8pt;vertical-align:middle;}
+table.temp td.sector{width:19%;font-weight:700;}
+table.temp td.signal{width:12%;}
+.chip{display:inline-block;padding:1px 8px;border-radius:9px;font-size:7.5pt;font-weight:700;color:#fff;}
+.chip.pos{background:var(--pos);} .chip.neu{background:var(--neu);} .chip.neg{background:var(--neg);}
+.note{font-size:7.2pt;color:var(--muted);margin:1px 0 3px;}
+
+/* sections */
+h2.section{font-size:10pt;font-weight:800;text-transform:uppercase;letter-spacing:.04em;
+  margin:7px 0 4px;padding-bottom:2px;border-bottom:1.5px solid var(--line);break-after:avoid;}
+h2.section::before{content:"";display:inline-block;width:8px;height:8px;background:var(--accent);
+  margin-right:7px;border-radius:2px;}
+h3.item{font-size:9.6pt;font-weight:700;margin:7px 0 2px;break-after:avoid;}
+.block{margin-bottom:5px;break-inside:avoid;}
+.subhead{font-size:8pt;font-weight:800;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--accent);margin:7px 0 2px;}
+.label,.k{font-weight:700;}
+.tag{display:inline-block;font-size:6.8pt;font-weight:700;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--accent);background:var(--accent-soft);padding:1px 5px;border-radius:3px;}
+.tag.lead{margin:0 4px 0 0;}
+.score{float:right;font-size:7.8pt;font-weight:800;color:#fff;background:var(--ink);
+  border-radius:4px;padding:1px 7px;}
+
+/* key-value table (Section 1 fallback visual) */
+table.kv{width:100%;border-collapse:collapse;table-layout:fixed;margin:4px 0 2px;}
+table.kv td{border:1px solid var(--line);padding:3px 6px;font-size:8pt;vertical-align:top;}
+table.kv td.k{width:60%;font-weight:600;background:var(--accent-soft);}
+table.kv caption{caption-side:bottom;text-align:left;font-size:7.2pt;color:var(--muted);padding-top:3px;}
+
+/* figures */
+figure{margin:5px 0;break-inside:avoid;}
+figure.mapfig img{width:70%;margin:0 auto;}
+figure.chartfig img{width:84%;margin:0 auto;}
+figure img{width:100%;height:auto;border:1px solid var(--line);border-radius:4px;display:block;}
+figcaption{font-size:7.4pt;color:var(--muted);margin-top:3px;}
+.figsrc{font-size:7.2pt;color:var(--muted);margin:1px 0 5px;}
+
+/* grids: deal pipeline + radar + tracker */
+table.grid{width:100%;border-collapse:collapse;table-layout:fixed;margin:5px 0 3px;}
+table.grid th{background:var(--accent-soft);text-align:left;font-weight:700;font-size:6.6pt;
+  text-transform:uppercase;letter-spacing:.02em;padding:3px 4px;border:1px solid var(--line);vertical-align:bottom;}
+table.grid td{padding:2px 3px;border:1px solid var(--line);font-size:6.9pt;line-height:1.26;vertical-align:top;
+  word-wrap:break-word;overflow-wrap:anywhere;}
+table.grid tr{break-inside:avoid;}
+.cellmain{font-weight:700;display:block;}
+.cellsub{color:var(--muted);display:block;font-size:6.9pt;}
+.conf{font-weight:700;}
+
+/* KPI cards */
+.kpirow{display:flex;gap:6px;margin:4px 0 6px;}
+.kpi{flex:1;border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:4px;
+  padding:5px 8px;break-inside:avoid;}
+.kpi .kl{font-size:6.8pt;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);}
+.kpi .kv{font-size:13pt;font-weight:800;color:var(--ink);margin:1px 0;}
+.kpi .ks{font-size:7pt;color:var(--muted);line-height:1.25;}
+
+/* capital fact/translation pairs, two-column */
+.capgrid{display:flex;flex-wrap:wrap;gap:0 14px;}
+.capitem{width:calc(50% - 7px);border-left:3px solid var(--line);padding:1px 0 1px 8px;margin-bottom:5px;break-inside:avoid;}
+.capitem .fact{font-size:7.5pt;}
+.capitem .fact .k{font-weight:700;}
+.capitem .tr{font-size:7.3pt;margin-top:1px;}
+
+/* national cards */
+.natgrid{display:flex;flex-wrap:wrap;gap:6px;}
+.natcard{width:calc(50% - 3px);border:1px solid var(--line);border-radius:4px;padding:5px 8px;break-inside:avoid;}
+.natcard .nh{font-size:7.2pt;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);margin-bottom:2px;}
+.natcard p{font-size:7.3pt;margin:0 0 2px;}
+
+/* what to watch prose */
+.watch p{margin:0 0 4px;font-size:8.2pt;}
+.watch .d{font-weight:700;}
+
+/* move today */
+.move{background:#0f1418;color:#f4f6f7;border-radius:6px;padding:8px 11px;margin:8px 0;break-inside:avoid;}
+.move h2{color:#fff;border:none;margin:0 0 4px;padding:0;font-size:10pt;text-transform:uppercase;letter-spacing:.04em;}
+.move h2::before{display:none;}
+.move p{margin:0;font-size:8.4pt;}
+
+/* sources: compact two-column register */
+ol.sources{font-size:6.1pt;padding-left:12px;margin:3px 0;line-height:1.24;column-count:3;column-gap:12px;}
+ol.sources li{margin-bottom:2px;break-inside:avoid;overflow-wrap:anywhere;}
+.method{font-size:6.6pt;color:var(--muted);margin-top:5px;border-top:1px solid var(--line);padding-top:4px;line-height:1.3;}

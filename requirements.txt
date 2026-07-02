@@ -1,0 +1,7 @@
+# Brief generation
+Pillow>=10.0            # map overlay compositing
+matplotlib>=3.7         # capital-markets chart
+Jinja2>=3.1             # HTML template
+weasyprint>=60          # HTML -> PDF (primary renderer)
+# Fallback renderer (only if WeasyPrint is unavailable):
+#   pip install playwright && playwright install chromium

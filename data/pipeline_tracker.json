@@ -1,0 +1,42 @@
+[
+  {
+    "id": "deadline-for-puc-and-ercot-to-submit-an-implemen",
+    "first_seen": "2026-07-01",
+    "status": "Carry",
+    "date": "July 17, 2026",
+    "catalyst": "Deadline for PUC and ERCOT to submit an implementation proposal on the directive that data centers fully fund their own grid infrastructure costs.",
+    "consequence": "The cost-allocation mechanism adopted will directly affect underwriting for every DFW data-center land deal in diligence [51]."
+  },
+  {
+    "id": "q2-2026-dfw-industrial-market-reports-from-cbre",
+    "first_seen": "2026-07-01",
+    "status": "Carry",
+    "date": "Mid-to-late July 2026",
+    "catalyst": "Q2 2026 DFW industrial market reports from CBRE, JLL, Cushman & Wakefield, Newmark, and Colliers are expected to publish.",
+    "consequence": "These will be the first hard read on whether Q1's record leasing volume translated into a vacancy decline, and will reset the comp set this brief has been citing from Q1 data."
+  },
+  {
+    "id": "prologis-segro-deadline",
+    "first_seen": "2026-07-02",
+    "status": "New",
+    "date": "July 22, 2026",
+    "catalyst": "Prologis deadline to announce a firm Segro bid or walk away.",
+    "consequence": "A completed deal could accelerate logistics-portfolio consolidation appetite reaching DFW sellers [48][49][50]."
+  },
+  {
+    "id": "next-fomc-meeting",
+    "first_seen": "2026-07-02",
+    "status": "New",
+    "date": "July 28 to 29, 2026",
+    "catalyst": "FOMC meeting, the second under Chair Warsh.",
+    "consequence": "Any shift from the June 17 hold directly reprices DFW industrial cap rates and refinance proceeds [38][39]."
+  },
+  {
+    "id": "mach-industries-incentive-vote",
+    "first_seen": "2026-07-02",
+    "status": "New",
+    "date": "August 10, 2026",
+    "catalyst": "Fort Worth Council vote on the $4.5M Mach Industries incentive package.",
+    "consequence": "Approval would fill 310,036 SF at Alliance Gateway 34 and set a fresh incentive-per-job comp [19][20][21]."
+  }
+]
