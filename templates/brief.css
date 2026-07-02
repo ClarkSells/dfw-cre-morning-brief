@@ -1,6 +1,6 @@
 :root{
   --paper:#ffffff; --ink:#14181c; --muted:#5f6368; --line:#e3e7ea;
-  --accent:#15694a; --accent-soft:#eef4f0;      /* set --accent to exact Strive green */
+  --accent:#8fc741; --accent-soft:#eef4f0;      /* set --accent to exact Strive green */
   --pos:#1f7a4d; --neu:#b07d18; --neg:#b23a3a;
   --new:#1f7a4d; --upd:#b07d18; --carry:#77828b;
   --sans:"Helvetica Neue","Liberation Sans",Arial,"DejaVu Sans",sans-serif;
